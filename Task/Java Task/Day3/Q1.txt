@@ -1,0 +1,22 @@
+1) Interface implements Interface ----> Not Possible
+2) Interface implements class ---->  Not Possible
+3) Interface implements abstract  -->  Not possible..
+4) I extends I --> Possible
+5) I extends C --> Not Possible ()- The type Class cannot be a superinterface of Interface1; a superinterface must be an interface
+6) I extends A --> Not possible ()- The type Abstract Class cannot be a superinterface of Interface1; a superinterface must be an interface
+
+7) C implements I --> Possible 
+
+8) C implements C  ---> Not Possible - The type Class1 cannot be a superinterface of Class2; a superinterface must be an interface
+9) C implements A ----> Not Possible The type AbstractClass1 cannot be a superinterface of Class1; a superinterface must be an interface
+10) C extends I --> Not Possible
+11) C extends C ---> Possible
+12) C extends A ---> Possible
+
+13)A implements I ---> Possible
+14)A implements C ---> Not Possible (The type Class2 cannot be a superinterface of AbstractClass1; a superinterface must be an interface)
+15)A implements A ---> Not Possible (The type AbstractClass2 cannot be a superinterface of AbstractClass1; a superinterface must be an interface)
+16)A extends I --->  Not Possible (The type Interface1 cannot be the superclass of AbstractClass1; a superclass must be a class)
+17)A extends C ---> Possible 
+18)A extends A-->  Possible
+
